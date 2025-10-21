@@ -6,10 +6,8 @@ import java.util.Objects;
 import com.educandoweb.course.entities.Order;
 import com.educandoweb.course.entities.Product;
 
-import jakarta.persistence.Entity;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
 
 public class OrderItemPk implements Serializable {
 	private static final long serialVersionUID = 1L;
